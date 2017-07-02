@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ShotComponent } from './shot/shot.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ShotComponent } from './shot/shot.component';
     HeaderComponent,
     NavigationComponent,
     CarouselComponent,
-    ShotComponent
+    ShotComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
