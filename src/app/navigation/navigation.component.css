@@ -1,9 +1,5 @@
 .navigation {
-  background-image:
-    linear-gradient(
-      to right,
-      #34495e,#2c3e50
-    );
+  background-color: #fff;
 }
 
 .navigation__links {
@@ -17,7 +13,7 @@
 }
 
 .navigation__links a {
-  color: #fff;
+  color: #000;
   position: relative;
   padding-bottom: 5px;
   font-size: 18px
@@ -30,7 +26,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
   transform: translateX(-150%);
   transition: transform 0.3s ease-in-out;
 }

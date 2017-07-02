@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { ShotComponent } from './shot/shot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavigationComponent
+    NavigationComponent,
+    CarouselComponent,
+    ShotComponent
   ],
   imports: [
     BrowserModule,

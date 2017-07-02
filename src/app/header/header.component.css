@@ -4,11 +4,7 @@
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  background-image:
-    linear-gradient(
-      to right,
-      #34495e,#2c3e50
-    );
+  background-color: #000;
 }
 
 .header__site-logo {
