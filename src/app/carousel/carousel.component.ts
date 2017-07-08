@@ -11,9 +11,9 @@ import { Shot } from '../shot/shot.model';
 })
 export class CarouselComponent implements AfterViewInit {
   shots: Shot[] = [
-    new Shot('Bonkaz', 'Bonkaz performing at his headline show', '../../assets/bonkaz.jpg'),
-    new Shot('Bonkaz', 'Bonkaz performing at his headline show', '../../assets/aj-tracey.jpg'),
-    new Shot('Bonkaz', 'Bonkaz performing at his headline show', '../../assets/jevon.jpg')
+    new Shot('Bonkaz Headline Show @ Camden Assembly', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '../../assets/bonkaz-headline-show-camden-assembley.jpg'),
+    new Shot('Cadet X Bogijko', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '../../assets/cadet-bogijko.jpg'),
+    new Shot('Michael Dapaah: #SWIL', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '../../assets/micheal-dapaah-studio.jpg')
   ];
   constructor() { }
 
